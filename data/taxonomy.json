@@ -1,0 +1,214 @@
+{
+  "version": 4,
+  "updated": "2026-08-21",
+  "directions": [
+    {
+      "id": "01-vla-wam-systems-serving",
+      "name": "VLA/WAM 系统与 Serving",
+      "file": "papers/01-vla-wam-systems-serving.md",
+      "description": "VLA（Vision-Language-Action）与 WAM（World-Action Model / world model）的推理运行时、serving、调度、实时控制回路、端云协同部署",
+      "keywords": [
+        "VLA inference",
+        "world-action model",
+        "model serving",
+        "real-time control",
+        "edge-cloud collaboration",
+        "robot inference runtime",
+        "latency",
+        "scheduling"
+      ],
+      "tier": "core",
+      "subdirections": [
+        {
+          "id": "serving-runtime",
+          "name": "推理运行时与 Serving"
+        },
+        {
+          "id": "edge-cloud",
+          "name": "端云协同部署"
+        },
+        {
+          "id": "real-time",
+          "name": "实时控制回路"
+        }
+      ]
+    },
+    {
+      "id": "02-vla-wam-accelerators",
+      "name": "VLA/WAM 加速器与架构",
+      "file": "papers/02-vla-wam-accelerators.md",
+      "description": "面向机器人 / 多模态 / VLA 的芯片与架构设计、存算一体、稀疏架构；主要来自 ISCA / MICRO / HPCA / ASPLOS",
+      "keywords": [
+        "accelerator",
+        "computer architecture",
+        "processing-in-memory",
+        "sparse architecture",
+        "robot SoC",
+        "ISCA",
+        "MICRO",
+        "HPCA",
+        "ASPLOS"
+      ],
+      "tier": "core",
+      "subdirections": [
+        {
+          "id": "robot-compute",
+          "name": "机器人计算（动力学 / 控制 / 规划）"
+        },
+        {
+          "id": "perception-slam",
+          "name": "感知与 SLAM 加速"
+        },
+        {
+          "id": "embodied-systems",
+          "name": "具身系统与可靠性"
+        },
+        {
+          "id": "multimodal-accelerator",
+          "name": "多模态 / 视频加速器"
+        }
+      ]
+    },
+    {
+      "id": "03-vla-wam-efficient-algorithms",
+      "name": "VLA/WAM 高效算法",
+      "file": "papers/03-vla-wam-efficient-algorithms.md",
+      "description": "fast WAM、VLA token 剪枝、量化 / 蒸馏、高效 action head（flow / diffusion 加速）等以效率为目标的算法",
+      "keywords": [
+        "efficient VLA",
+        "fast world model",
+        "token pruning",
+        "quantization",
+        "distillation",
+        "action head",
+        "flow matching acceleration",
+        "diffusion acceleration"
+      ],
+      "tier": "core",
+      "subdirections": [
+        {
+          "id": "efficient-vla",
+          "name": "VLA 高效化"
+        },
+        {
+          "id": "fast-wam",
+          "name": "快速世界模型"
+        },
+        {
+          "id": "action-head",
+          "name": "高效动作头"
+        }
+      ]
+    },
+    {
+      "id": "04-vla-wam-foundation-models",
+      "name": "VLA/WAM 基座模型",
+      "file": "papers/04-vla-wam-foundation-models.md",
+      "description": "π 系列、GR00T 系列、OpenVLA、RT 系列、Cosmos-Policy 等定义或改写技术路线的模型",
+      "keywords": [
+        "pi-zero",
+        "GR00T",
+        "OpenVLA",
+        "RT-2",
+        "RT-X",
+        "Cosmos",
+        "foundation robot policy"
+      ],
+      "tier": "milestone",
+      "subdirections": []
+    },
+    {
+      "id": "05-general-efficient-ml",
+      "name": "通用高效 ML 方法",
+      "file": "papers/05-general-efficient-ml.md",
+      "description": "FlashAttention、经典量化 / 稀疏化方法、投机解码等被广泛采用的里程碑工作",
+      "keywords": [
+        "FlashAttention",
+        "speculative decoding",
+        "GPTQ",
+        "AWQ",
+        "pruning",
+        "sparsity",
+        "KV cache",
+        "efficient attention"
+      ],
+      "tier": "milestone",
+      "subdirections": [
+        {
+          "id": "quantization",
+          "name": "量化"
+        },
+        {
+          "id": "speculative-decoding",
+          "name": "投机解码"
+        },
+        {
+          "id": "attention-kernel",
+          "name": "注意力与 Kernel"
+        },
+        {
+          "id": "sparsity",
+          "name": "稀疏化"
+        }
+      ]
+    },
+    {
+      "id": "06-general-ml-systems",
+      "name": "通用 ML 系统与 Serving",
+      "file": "papers/06-general-ml-systems.md",
+      "description": "LLM / 多模态 serving 与推理系统，需与具身智能推理有明确技术迁移关系",
+      "keywords": [
+        "LLM serving",
+        "inference system",
+        "vLLM",
+        "multimodal serving",
+        "disaggregated inference",
+        "batching",
+        "GPU scheduling"
+      ],
+      "tier": "core",
+      "subdirections": [
+        {
+          "id": "serving-scheduling",
+          "name": "Serving 与调度"
+        },
+        {
+          "id": "disaggregation",
+          "name": "分离与解耦"
+        },
+        {
+          "id": "kv-cache-memory",
+          "name": "KV 缓存与显存"
+        },
+        {
+          "id": "low-bit",
+          "name": "低比特与量化"
+        },
+        {
+          "id": "edge-on-device",
+          "name": "端侧与边缘推理"
+        },
+        {
+          "id": "moe-inference",
+          "name": "MoE 推理"
+        },
+        {
+          "id": "spec-decode",
+          "name": "投机解码与推理加速"
+        },
+        {
+          "id": "llm-architecture",
+          "name": "推理硬件架构（PIM / CXL / 晶圆）"
+        },
+        {
+          "id": "cluster-network",
+          "name": "集群与网络设施"
+        },
+        {
+          "id": "agent-multimodal-serving",
+          "name": "Agent 与多模态生成 Serving"
+        }
+      ]
+    }
+  ]
+}

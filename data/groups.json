@@ -1,0 +1,216 @@
+[
+  {
+    "id": "physical-intelligence",
+    "name": "Physical Intelligence (π)",
+    "type": "工业研究",
+    "focus": "VLA 基座模型（π 系列）",
+    "note": "π0 / π0.5 / FAST 作者团队，通用机器人控制基础模型的定义者之一。",
+    "links": [
+      "https://www.physicalintelligence.company"
+    ],
+    "papers": [
+      "2410.24164",
+      "2504.16054",
+      "2501.09747"
+    ]
+  },
+  {
+    "id": "nvidia",
+    "name": "NVIDIA（GEAR / Isaac / Cosmos）",
+    "type": "工业研究",
+    "focus": "机器人基座模型与世界模型（GR00T / Cosmos / DreamZero）",
+    "note": "GR00T 人形基座、Cosmos 世界模型平台与 DreamZero WAM，Physical AI 模型侧最完整的工业布局。",
+    "links": [
+      "https://research.nvidia.com"
+    ],
+    "papers": [
+      "2503.14734",
+      "2501.03575",
+      "2601.16163",
+      "2602.15922"
+    ]
+  },
+  {
+    "id": "robbyant",
+    "name": "蚂蚁灵波 Robbyant",
+    "type": "工业研究",
+    "focus": "VLA 基座模型（LingBot 系列）",
+    "note": "LingBot-VLA 系列以大规模真机数据与稀疏 MoE 路线著称，模型与数据均开源。",
+    "links": [
+      "https://github.com/robbyant"
+    ],
+    "papers": [
+      "2601.18692",
+      "2607.06403"
+    ]
+  },
+  {
+    "id": "google-deepmind",
+    "name": "Google DeepMind Robotics",
+    "type": "工业研究",
+    "focus": "RT 系列与 VLA 范式",
+    "note": "RT-1/RT-2/RT-X 奠定 VLA 范式；投机解码原始论文同样出自 Google。",
+    "links": [
+      "https://deepmind.google"
+    ],
+    "papers": [
+      "2212.06817",
+      "2307.15818",
+      "2310.08864",
+      "2211.17192"
+    ]
+  },
+  {
+    "id": "ucb-sky",
+    "name": "UC Berkeley Sky Computing Lab",
+    "type": "学术实验室",
+    "focus": "LLM serving 系统与开源机器人模型",
+    "note": "vLLM 谱系（SLoRA / Punica / SkyServe 等）与 Octo 通用机器人策略。",
+    "links": [
+      "https://sky.cs.berkeley.edu"
+    ],
+    "papers": [
+      "dblp:conf/mlsys/0007CLHLYCZZK0S24",
+      "dblp:conf/mlsys/Chen0WZCK24",
+      "dblp:conf/eurosys/MaoXWCGBYSS25",
+      "dblp:conf/asplos/CaoLGSL0GZS25",
+      "dblp:conf/mlsys/JiangZCSY25",
+      "2405.12213"
+    ]
+  },
+  {
+    "id": "mit-han-lab",
+    "name": "MIT HAN Lab（Song Han）",
+    "type": "学术实验室",
+    "focus": "高效推理与量化（AWQ / QServe / SmoothQuant / LServe）",
+    "note": "端侧量化与长序列 serving 的系列奠基工作，开源生态影响力大。",
+    "links": [
+      "https://hanlab.mit.edu"
+    ],
+    "papers": [
+      "dblp:conf/mlsys/0002TTYCWXDG024",
+      "dblp:conf/mlsys/0001TYZX0025",
+      "2211.10438",
+      "dblp:conf/mlsys/YangGT0XT0L0025"
+    ]
+  },
+  {
+    "id": "msr",
+    "name": "Microsoft Research",
+    "type": "工业研究",
+    "focus": "LLM 推理系统（PD 分离 / 调度 / 量化 / 集群能效）",
+    "note": "Splitwise、Sarathi-Serve、T-MAC、DynamoLLM 等，推理系统方向产出最密集的团队之一。",
+    "links": [
+      "https://www.microsoft.com/en-us/research"
+    ],
+    "papers": [
+      "dblp:conf/isca/PatelCZSGMB24",
+      "dblp:conf/osdi/AgrawalKPMKGTR24",
+      "dblp:conf/hpca/StojkovicZGTC25",
+      "dblp:conf/eurosys/WeiCCMWZY25",
+      "dblp:conf/asplos/PrabhuNMRP25",
+      "dblp:conf/asplos/KamathPM0RP25"
+    ]
+  },
+  {
+    "id": "bytedance",
+    "name": "ByteDance（Seed / Infra）",
+    "type": "工业研究",
+    "focus": "超大规模训练与推理基础设施（MegaScale 系列）",
+    "note": "MegaScale 家族（训练 / Infer / Omni / Data）与万卡级生产系统实践。",
+    "links": [
+      "https://team.doubao.com"
+    ],
+    "papers": [
+      "dblp:conf/nsdi/JiangLZHCZPLXNJ24",
+      "dblp:conf/sigcomm/ZhuJJWSWZZWCXZL25",
+      "dblp:conf/sosp/WanLSWZSWWWLYZJ25"
+    ]
+  },
+  {
+    "id": "alibaba",
+    "name": "Alibaba",
+    "type": "工业研究",
+    "focus": "数据中心网络与生产级 LLM serving",
+    "note": "HPN 训练网络、Aegaeon GPU 池化、Llumnix 动态调度等生产系统。",
+    "links": [
+      "https://www.alibabagroup.com"
+    ],
+    "papers": [
+      "dblp:conf/sigcomm/QianXCGXGFSZMWW24",
+      "dblp:conf/sosp/Xiang0QYZYZL0025",
+      "dblp:conf/osdi/SunHZXZL024",
+      "dblp:conf/nsdi/XiangLQZYZJZ26"
+    ]
+  },
+  {
+    "id": "ist-austria",
+    "name": "IST Austria（Frantar / Alistarh）",
+    "type": "学术实验室",
+    "focus": "量化与剪枝方法（GPTQ / SparseGPT）",
+    "note": "一次性后训练压缩路线的开创团队。",
+    "links": [
+      "https://ista.ac.at"
+    ],
+    "papers": [
+      "2210.17323",
+      "2301.00774"
+    ]
+  },
+  {
+    "id": "cmu",
+    "name": "CMU（Catalyst / Kolter 等）",
+    "type": "学术实验室",
+    "focus": "投机推理与 serving 系统",
+    "note": "SpecInfer / SpotServe / Helix（Jia Zhihao 组）与 Wanda 剪枝。",
+    "links": [
+      "https://catalyst.cs.cmu.edu"
+    ],
+    "papers": [
+      "dblp:conf/asplos/MiaoOZCWZWZYSSC24",
+      "dblp:conf/asplos/MiaoSDXL0J24",
+      "dblp:conf/asplos/Mei0MYJV25",
+      "2306.11695"
+    ]
+  },
+  {
+    "id": "sjtu-ipads",
+    "name": "SJTU IPADS",
+    "type": "学术实验室",
+    "focus": "端侧与机密推理系统",
+    "note": "PowerInfer、PipeLLM 等端侧/机密 LLM 推理工作。",
+    "links": [
+      "https://ipads.se.sjtu.edu.cn"
+    ],
+    "papers": [
+      "dblp:conf/sosp/SongMX024",
+      "dblp:conf/asplos/0005TM025"
+    ]
+  },
+  {
+    "id": "flashinfer",
+    "name": "FlashInfer",
+    "type": "开源生态",
+    "focus": "注意力 kernel 生态",
+    "note": "被 vLLM / SGLang 等主流 serving 框架集成的 attention kernel 库。",
+    "links": [
+      "https://github.com/flashinfer-ai/flashinfer"
+    ],
+    "papers": [
+      "dblp:conf/mlsys/00010LLZW0KGKC25"
+    ]
+  },
+  {
+    "id": "ktransformers",
+    "name": "KTransformers",
+    "type": "开源生态",
+    "focus": "CPU/GPU 混合 MoE 推理",
+    "note": "端侧 MoE 推理的热门开源框架（清华 MADSV 等）。",
+    "links": [
+      "https://github.com/kvcache-ai/ktransformers"
+    ],
+    "papers": [
+      "dblp:conf/sosp/ChenXZTWDCYLQZO25"
+    ]
+  }
+]
