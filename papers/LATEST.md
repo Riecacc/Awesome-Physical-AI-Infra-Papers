@@ -6,6 +6,8 @@
 
 | 论文 | 作者 | 发布 | Venue | 标签 | 代码 | TL;DR |
 | --- | --- | --- | --- | --- | --- | --- |
+| [PartialBiGrasp: Inferring Hidden Local Geometry for Bimanual Grasping from Partial Views](https://arxiv.org/abs/2608.19188) | - | 2026-08-19 | arXiv | - | - | 提出PartialBiGrasp，一个直接从局部点云观测生成双臂抓取对的框架。通过卷积占用网络隐式学习几何特征，并结合采样优化生成力闭合抓取，在仿真和真机上验证了鲁棒性。 |
+| [OrthoSkillVLA: Continual Skill Learning via Gradient-Informed Skill Subspace Adaptation](https://arxiv.org/abs/2608.19589) | - | 2026-08-20 | arXiv | - | - | 提出OrthoSkillVLA，一种无需样本回放的VLA持续技能学习框架。对VLM和动作头分别施加正交子空间约束，并引入轻量特征感知MoE解码器，在学习新技能的同时更好保留旧技能，仿真与真机实验均验证有效。 |
 | [FlashInfer: Efficient and Customizable Attention Engine for LLM Inference Serving](https://dblp.org/rec/conf/mlsys/00010LLZW0KGKC25.html) | Zihao Ye 0001 et al. | 2025 | MLSys | attention-kernel, llm-serving, gpu-kernel | - | 高效可定制的 LLM 推理 attention 引擎，已被 vLLM/SGLang 等主流框架集成为默认 kernel 后端。 |
 | [Splitwise: Efficient Generative LLM Inference Using Phase Splitting](https://dblp.org/rec/conf/isca/PatelCZSGMB24.html) | Pratyush Patel et al. | 2024 | ISCA | disaggregated-inference, prefill-decode, phase-splitting | - | 通过阶段拆分实现高效生成式 LLM 推理，奠定 prefill/decode 分离范式。 |
 | [SpecInfer: Accelerating Large Language Model Serving with Tree-based Speculative Inference and Verification](https://dblp.org/rec/conf/asplos/MiaoOZCWZWZYSSC24.html) | Xupeng Miao et al. | 2024 | ASPLOS | speculative-decoding, tree-based, llm-serving | - | 树状投机推理与验证加速 LLM serving，投机解码系统化的代表作。 |
