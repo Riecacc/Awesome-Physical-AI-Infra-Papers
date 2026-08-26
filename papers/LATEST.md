@@ -6,6 +6,7 @@
 
 | 论文 | 作者 | 发布 | Venue | 标签 | 代码 | TL;DR |
 | --- | --- | --- | --- | --- | --- | --- |
+| [ReWorld: An Interactive World Model with Long-Horizon Memory](https://arxiv.org/abs/2608.23565) | Zhifei Chen et al. | 2026-08-24 | arXiv | world-model, kv-cache, distillation, real-time-streaming, long-horizon-memory | - | ReWorld 提出控制与记忆分离的交互式世界模型：训练时用混合注意力窗口与随机 head 路由解耦短时控制与长时记忆，推理时以位姿索引地标库支撑固定预算 KV 缓存。配合 LoRA 分布匹配蒸馏将采样压缩至 4 步，同一骨干同时支持高保真多步模式与实时交互模式，分钟级 rollout 仍能回忆起始画面。 |
 | [PartialBiGrasp: Inferring Hidden Local Geometry for Bimanual Grasping from Partial Views](https://arxiv.org/abs/2608.19188) | - | 2026-08-19 | arXiv | - | - | 提出PartialBiGrasp，一个直接从局部点云观测生成双臂抓取对的框架。通过卷积占用网络隐式学习几何特征，并结合采样优化生成力闭合抓取，在仿真和真机上验证了鲁棒性。 |
 | [OrthoSkillVLA: Continual Skill Learning via Gradient-Informed Skill Subspace Adaptation](https://arxiv.org/abs/2608.19589) | - | 2026-08-20 | arXiv | - | - | 提出OrthoSkillVLA，一种无需样本回放的VLA持续技能学习框架。对VLM和动作头分别施加正交子空间约束，并引入轻量特征感知MoE解码器，在学习新技能的同时更好保留旧技能，仿真与真机实验均验证有效。 |
 | [FlashInfer: Efficient and Customizable Attention Engine for LLM Inference Serving](https://dblp.org/rec/conf/mlsys/00010LLZW0KGKC25.html) | Zihao Ye 0001 et al. | 2025 | MLSys | attention-kernel, llm-serving, gpu-kernel | - | 高效可定制的 LLM 推理 attention 引擎，已被 vLLM/SGLang 等主流框架集成为默认 kernel 后端。 |

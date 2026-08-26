@@ -9994,5 +9994,47 @@
     "milestone_reason": "",
     "added": "2026-08-22",
     "source": "arxiv-scout"
+  },
+  {
+    "id": "2608.23565",
+    "title": "ReWorld: An Interactive World Model with Long-Horizon Memory",
+    "authors": [
+      "Zhifei Chen",
+      "Luozhou Wang",
+      "Guibao Shen",
+      "Dongyu Yan",
+      "Shuai Yang",
+      "Tianshuo Xu",
+      "Yihua Du",
+      "Wei Wang",
+      "Tianyi Gui",
+      "Lianghua Huang",
+      "Yingcong Chen"
+    ],
+    "published": "2026-08-24",
+    "year": 2026,
+    "venue": null,
+    "venue_type": "preprint",
+    "directions": [
+      "01-vla-wam-systems-serving",
+      "03-vla-wam-efficient-algorithms"
+    ],
+    "subdirections": {},
+    "tags": [
+      "world-model",
+      "kv-cache",
+      "distillation",
+      "real-time-streaming",
+      "long-horizon-memory"
+    ],
+    "code_url": null,
+    "github_stars": null,
+    "citation_count": 0,
+    "score": 7,
+    "reason": "交互式世界模型的推理侧系统设计扎实：混合注意力窗口+位姿索引地标库实现固定预算KV缓存，LoRA蒸馏压缩至4步采样，兼顾长时记忆与实时流式生成，效率与系统贡献明确。",
+    "summary_zh": "ReWorld 提出控制与记忆分离的交互式世界模型：训练时用混合注意力窗口与随机 head 路由解耦短时控制与长时记忆，推理时以位姿索引地标库支撑固定预算 KV 缓存。配合 LoRA 分布匹配蒸馏将采样压缩至 4 步，同一骨干同时支持高保真多步模式与实时交互模式，分钟级 rollout 仍能回忆起始画面。",
+    "milestone_reason": "",
+    "added": "2026-08-26",
+    "source": "arxiv-scout"
   }
 ]
