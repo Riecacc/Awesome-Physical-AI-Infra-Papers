@@ -8,11 +8,11 @@
 
 | 指标 | 当前值 |
 | --- | --- |
-| 收录论文 | 252 |
+| 收录论文 | 254 |
 | 研究方向 | 6 |
 | 追踪会议 | 15（系统 6 · 架构 4 · 机器人 4 · arXiv / Others） |
 | 追踪研究组 | 14 |
-| 最近更新 | 2026-08-26 |
+| 最近更新 | 2026-08-27 |
 
 ## 🧭 研究地图
 
@@ -20,9 +20,9 @@
 
 | # | 方向 | 门槛 | 论文数 |
 | ---: | --- | --- | ---: |
-| 01 | [VLA/WAM 系统与 Serving](papers/01-vla-wam-systems-serving.md) | core | 1 |
+| 01 | [VLA/WAM 系统与 Serving](papers/01-vla-wam-systems-serving.md) | core | 3 |
 | 02 | [VLA/WAM 加速器与架构](papers/02-vla-wam-accelerators.md) | core | 15 |
-| 03 | [VLA/WAM 高效算法](papers/03-vla-wam-efficient-algorithms.md) | core | 2 |
+| 03 | [VLA/WAM 高效算法](papers/03-vla-wam-efficient-algorithms.md) | core | 3 |
 | 04 | [VLA/WAM 基座模型](papers/04-vla-wam-foundation-models.md) | milestone | 16 |
 | 05 | [通用高效 ML 方法](papers/05-general-efficient-ml.md) | milestone | 12 |
 | 06 | [通用 ML 系统与 Serving](papers/06-general-ml-systems.md) | core | 205 |
