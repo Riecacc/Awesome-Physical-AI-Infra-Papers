@@ -6,6 +6,7 @@
 
 | 论文 | 作者 | 发布 | Venue | 标签 | 代码 | TL;DR |
 | --- | --- | --- | --- | --- | --- | --- |
+| [Knowing When to Stop: Adaptive Action Chunking via Internal Cross-Attention Dynamics in VLAs](https://arxiv.org/abs/2609.00908) | Runze Xu et al. | 2026-09-01 | arXiv | vla, action-chunking, adaptive-inference, training-free | - | 论文发现随预测时域延伸，动作到观测的交叉注意力趋于分散、熵上升至平台期，与预测误差升高相关。据此提出免训练截断机制，检测高熵平台期并动态选择执行时域，在 pi0.5 和 X-VLA 上超越固定时域与自适应基线。 |
 | [FlashVLA: Streaming Action Decoding for Fast and Asynchronous VLA Inference](https://arxiv.org/abs/2608.27384) | Zekai Li et al. | 2026-08-27 | arXiv | vla-inference, async-execution, action-chunking, real-time-control | - | FlashVLA 提出流式动作缓冲与分块因果注意力，每次推理产出一个可执行动作块，并隐式保持动作连续性。在仿真与真机实验中实现单 GPU ≥30Hz 的平滑异步控制频率。 |
 | [NVIDIA Cosmos-H-Dreams: Real-Time Generative Physics Simulation for Surgical Robotics](https://arxiv.org/abs/2608.24199) | Javier Gamazo Tejero et al. | 2026-08-25 | arXiv | world-model, distillation, real-time-simulation, surgical-robotics, streaming-inference | - | Cosmos-H-Dreams 将动作条件手术视频世界模型经教师-学生蒸馏转化为可控实时模拟器，在单张 RTX PRO 6000 上达 ~160 FPS，支持键盘、VR、手术机器人控制台与闭环策略的实时交互控制。 |
 | [PonderPounce: A Pretrained MLLM as an Episode Context Engine for Robot Control](https://arxiv.org/abs/2608.24115) | Suhwan Choi et al. | 2026-08-25 | arXiv | vla-serving, async-inference, episodic-memory, dual-system, low-latency | - | PonderPounce 复用 MLLM 原生因果上下文作为机器人情景记忆，System2 异步生成认知 token 供 System1 VLA 消费，优化后支持 20Hz 动作回放，在 RoboMME 上大幅超越基线。 |

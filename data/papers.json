@@ -10145,5 +10145,39 @@
     "milestone_reason": "",
     "added": "2026-08-29",
     "source": "arxiv-scout"
+  },
+  {
+    "id": "2609.00908",
+    "title": "Knowing When to Stop: Adaptive Action Chunking via Internal Cross-Attention Dynamics in VLAs",
+    "authors": [
+      "Runze Xu",
+      "Xiaolong Shan",
+      "Shuang Dai",
+      "Yu Wang",
+      "Jincheng Yu"
+    ],
+    "published": "2026-09-01",
+    "year": 2026,
+    "venue": null,
+    "venue_type": "preprint",
+    "directions": [
+      "03-vla-wam-efficient-algorithms"
+    ],
+    "subdirections": {},
+    "tags": [
+      "vla",
+      "action-chunking",
+      "adaptive-inference",
+      "training-free"
+    ],
+    "code_url": null,
+    "github_stars": null,
+    "citation_count": 0,
+    "score": 7,
+    "reason": "利用动作专家内部交叉注意力熵作为免训练的在线信号自适应选择执行时域，几乎零开销地改善 VLA 推理效率与成功率，符合高效 VLA 方向。",
+    "summary_zh": "论文发现随预测时域延伸，动作到观测的交叉注意力趋于分散、熵上升至平台期，与预测误差升高相关。据此提出免训练截断机制，检测高熵平台期并动态选择执行时域，在 pi0.5 和 X-VLA 上超越固定时域与自适应基线。",
+    "milestone_reason": "",
+    "added": "2026-09-04",
+    "source": "arxiv-scout"
   }
 ]
