@@ -10211,5 +10211,61 @@
     "milestone_reason": "",
     "added": "2026-09-05",
     "source": "arxiv-scout"
+  },
+  {
+    "id": "2609.17210",
+    "title": "FluxVLA Engine: A One-Stop VLA Engineering Platform for Embodied Intelligence",
+    "authors": [
+      "Yinhao Li",
+      "Weixin Mao",
+      "Zihan Lan",
+      "Jikun Rong",
+      "Qirui Hu",
+      "Yiming Zhang",
+      "Weipeng Deng",
+      "Bowen Shen",
+      "Minzhao Zhu",
+      "Yiming Mao",
+      "Yan Yang",
+      "Chenguang Cui",
+      "Hongyuan Chen",
+      "Xu Huang",
+      "Zheyi Zhao",
+      "Pinxi Shen",
+      "Bozhen He",
+      "Zhen Fu",
+      "Yifan Wang",
+      "Zexin Zhang",
+      "Ang Gao",
+      "Haoyu Chen",
+      "Chengqi Shi",
+      "Hua Chen"
+    ],
+    "published": "2026-09-15",
+    "year": 2026,
+    "venue": null,
+    "venue_type": "preprint",
+    "directions": [
+      "01-vla-wam-systems-serving"
+    ],
+    "subdirections": {},
+    "tags": [
+      "vla-serving",
+      "deployment-platform",
+      "real-time-chunking",
+      "open-source"
+    ],
+    "code_url": "https://github.com/FluxVLA/FluxVLA",
+    "github_stars": {
+      "count": 719,
+      "fetched_at": "2026-09-29"
+    },
+    "citation_count": 0,
+    "score": 7,
+    "reason": "面向 VLA/WAM 从数据到部署的开源工程平台，涵盖优化推理后端、RTC 实时分块与远程 GPU serving，直击具身策略部署的系统瓶颈，且已开源。",
+    "summary_zh": "FluxVLA Engine 是一个开放的、配置驱动的 VLA 工程平台，标准化数据集、模型、动作头、分布式训练、仿真评估与机器人执行的接口。集成实时分块、加速推理后端与轻量远程 GPU serving，打通离线学习、仿真验证、在线纠错与真机执行的完整链路。",
+    "milestone_reason": "",
+    "added": "2026-09-29",
+    "source": "arxiv-scout"
   }
 ]

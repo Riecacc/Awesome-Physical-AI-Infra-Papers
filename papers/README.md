@@ -1,6 +1,6 @@
 # 🧭 研究地图
 
-> 257 篇论文 · 6 个研究方向 · 每篇论文可属于多个方向
+> 258 篇论文 · 6 个研究方向 · 每篇论文可属于多个方向
 
 [**📚 最新收录**](LATEST.md) · [**🏛️ 按会议 / 年份索引**](../venues/README.md) · [**🧩 JSON**](../data/papers.json) · [**🏷️ 分类定义**](../data/taxonomy.json)
 
@@ -8,7 +8,7 @@
 
 | # | 研究方向 | 门槛 | 论文数 |
 | ---: | --- | --- | ---: |
-| 01 | [**VLA/WAM 系统与 Serving**](01-vla-wam-systems-serving.md) | core | 4 |
+| 01 | [**VLA/WAM 系统与 Serving**](01-vla-wam-systems-serving.md) | core | 5 |
 | 02 | [**VLA/WAM 加速器与架构**](02-vla-wam-accelerators.md) | core | 15 |
 | 03 | [**VLA/WAM 高效算法**](03-vla-wam-efficient-algorithms.md) | core | 6 |
 | 04 | [**VLA/WAM 基座模型**](04-vla-wam-foundation-models.md) | milestone | 16 |
